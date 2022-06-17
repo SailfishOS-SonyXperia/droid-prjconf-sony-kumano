@@ -1,4 +1,4 @@
-%define device sony-seine
+%define device sony-kumano
 
 %include droid-hal-prjconf/droid-hal-prjconf.inc
 
