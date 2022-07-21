@@ -6,3 +6,5 @@ Prefer: ohm-configs-default
 # this is the only way to kludge it away
 
 Substitute: droid-config-flashing bash
+
+Substitute: ubu-trusty ubu-chroot
