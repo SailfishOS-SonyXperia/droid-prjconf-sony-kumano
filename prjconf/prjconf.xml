@@ -1,3 +1,6 @@
+#!/usr/bin/rpm
+# -*- rpm -*-
+
 # device-specific project conf:
 Prefer: droid-hal-griffin-devel
 Prefer: ohm-configs-default
@@ -8,3 +11,5 @@ Prefer: ohm-configs-default
 Substitute: droid-config-flashing bash
 
 Substitute: ubu-trusty ubu-chroot
+
+%define supported_devices "j8110 j9110 j8210 j9210"
