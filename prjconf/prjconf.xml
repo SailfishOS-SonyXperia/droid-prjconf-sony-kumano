@@ -10,10 +10,6 @@ Prefer: ohm-configs-default
 
 Substitute: droid-config-flashing bash
 
-# These are not avialable in hw-common potentiially but not neded during build
-Substitute: hybris-libsensorfw-qt5 bash
-Substitute: qtscenegraph-adaptation bash
-
 Substitute: ubu-trusty ubu-chroot
 
 %define supported_devices "j8110 j9110 j8210 j9210"
